@@ -7,14 +7,16 @@ public class EmployeeService {
     private static Employee[] employee = new Employee[10];
 
 
-    public String addEmployee(){
-
+    public String addEmployee(String firstName, String lastFamily) {
+        return "";
     }
-    public String deleteEmploee(){
 
+    public String deleteEmploee(String firstName, String lastFamily) {
+        return "";
     }
-public String findAnEmployee(){
 
-}
+    public String findAnEmployee(String firstName, String lastFamily) {
+        return "";
+    }
 
 }
