@@ -11,7 +11,7 @@ public class EmployeeService {
         return "";
     }
 
-    public String removeEmploee(String firstName, String lastFamily) {
+    public String removeEmployee(String firstName, String lastFamily) {
         return "";
     }
 

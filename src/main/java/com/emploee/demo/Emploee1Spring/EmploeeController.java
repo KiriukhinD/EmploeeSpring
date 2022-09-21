@@ -2,6 +2,7 @@ package com.emploee.demo.Emploee1Spring;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -16,7 +17,7 @@ public class EmploeeController {
 
 
     @GetMapping(path = "/add")
-    public String addEmployee(String firstName, String lastFamily) {
+    public String addEmployee(@RequestParam("firstName")String firstName,@RequestParam("lastName") String lastFamily) {
         return "hello";
     }
 
