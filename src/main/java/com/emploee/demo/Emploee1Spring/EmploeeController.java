@@ -17,9 +17,18 @@ public class EmploeeController {
 
 
     @GetMapping(path = "/add")
-    public String addEmployee(@RequestParam("firstName")String firstName,@RequestParam("lastName") String lastFamily) {
+    public String addEmployee(@RequestParam("firstName") String firstName, @RequestParam("lastName") String lastFamily) {
         return "hello";
     }
 
+    @GetMapping(path = "/remove")
+    public String removeEmployee(@RequestParam("firstName") String firstName, @RequestParam("lastName") String lastFamily) {
+        return "hello";
+    }
+
+    @GetMapping(path = "/find")
+    public String findEmployee(@RequestParam("firstName") String firstName, @RequestParam("lastName") String lastFamily) {
+        return "hello";
+    }
 
 }
