@@ -2,24 +2,26 @@ package com.emploee.demo.Emploee1Spring;
 
 
 public class Employee {
-    private final String name;
-    private final String family;
+    private final String firstName;
+    private final String lastFamily;
 
-    Employee(String name, String family) {
-        this.name = name;
-        this.family = family;
+    Employee(String firstName, String lastFamily) {
+        this.firstName = firstName;
+        this.lastFamily = lastFamily;
     }
-    public String name(){
-        return name;
+
+    public String getFirstName() {
+        return firstName;
     }
-    public String getFamily() {
-        return family;
+
+    public String getLastFamily() {
+        return lastFamily;
     }
 
 
     @Override
     public String toString() {
-        return "имя : " + name + "\nфамилия : " + family + "\n";
+        return "имя : " + firstName + "\nфамилия : " + lastFamily + "\n";
     }
 
 

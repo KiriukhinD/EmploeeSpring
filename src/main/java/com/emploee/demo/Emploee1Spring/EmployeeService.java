@@ -4,7 +4,17 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class EmployeeService {
-    private static Employee[] employees = new Employee[10];
+    private static Employee[] employee = new Employee[10];
 
+
+    public String addEmployee(){
+
+    }
+    public String deleteEmploee(){
+
+    }
+public String findAnEmployee(){
+
+}
 
 }
