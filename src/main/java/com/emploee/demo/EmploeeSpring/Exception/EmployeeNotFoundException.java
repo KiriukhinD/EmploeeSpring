@@ -1,4 +1,4 @@
-package com.emploee.demo.Emploee1Spring;
+package com.emploee.demo.EmploeeSpring.Exception;
 
 public class EmployeeNotFoundException extends RuntimeException {
     public EmployeeNotFoundException(String message) {

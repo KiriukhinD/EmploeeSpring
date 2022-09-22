@@ -1,4 +1,4 @@
-package com.emploee.demo.Emploee1Spring;
+package com.emploee.demo.EmploeeSpring.Exception;
 
 public class EmployeeStorageIsFullException extends RuntimeException {
     public EmployeeStorageIsFullException(String message) {
